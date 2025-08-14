@@ -104,5 +104,67 @@ AI models built on **Deep Learning (Neural Networks)** fall into two main catego
   - Bias: Reflecting training data biases in outputs
   - Examples: ChatGPT creating fake citations, bias in resume screening
 
+## Natural Language Processing (NLP)
 
+**Definition**: AI technology that enables computers to understand, interpret, and generate human language
 
+### Core Components
+
+#### NLU (Natural Language Understanding)
+**Purpose**: Convert unstructured text to structured data that computers can process
+
+**Key Techniques**:
+- **Tokenization**: Breaking text into individual words/tokens
+  - Example: "Hello world!" → ["Hello", "world", "!"]
+- **Stemming**: Reducing words to root forms
+  - Example: "running", "runs", "ran" → "run"
+- **Lemmatization**: Converting words to dictionary forms
+  - Example: "better" → "good", "mice" → "mouse"
+- **Part-of-Speech (POS) Tagging**: Identifying grammatical roles
+  - Example: "The quick brown fox" → [Det, Adj, Adj, Noun]
+- **Named Entity Recognition (NER)**: Identifying specific entities
+  - Example: "Apple Inc. in Cupertino" → [Company, Location]
+
+**Working Example**:
+```
+Input: "Apple's CEO visited New York yesterday"
+1. Tokenization: ["Apple's", "CEO", "visited", "New", "York", "yesterday"]
+2. POS Tagging: [Noun, Noun, Verb, Adj, Noun, Adverb]
+3. NER: [Company, Person-Title, Action, Location, Time]
+4. Lemmatization: ["Apple", "CEO", "visit", "New", "York", "yesterday"]
+```
+
+#### NLG (Natural Language Generation)
+**Purpose**: Convert structured data to natural human language
+
+**Examples**:
+- **Weather Reports**: Temperature data → "It's 75°F and sunny today"
+- **Sports Updates**: Game scores → "Lakers beat Warriors 108-102"
+- **Financial Reports**: Stock data → "Apple stock rose 3% to $180"
+
+### Real-World Applications
+
+#### Machine Translation
+**Examples**: Google Translate, DeepL, Microsoft Translator
+- **Technology**: Transformer models, attention mechanisms
+- **Languages**: 100+ languages supported (2025)
+
+#### Virtual Assistants
+**Examples**: 
+- **Text-based**: ChatGPT, Claude 4, Google Bard
+- **Voice-based**: Siri, Alexa, Google Assistant, Cortana
+- **Features**: Voice recognition, context understanding, task automation
+
+#### Sentiment Analysis
+**Use Cases**:
+- **Product Reviews**: Amazon, Yelp rating analysis
+- **Social Media**: Twitter/X sentiment tracking for brands
+- **Customer Support**: Email tone analysis
+- **Example**: "This product is amazing!" → Positive (0.95 confidence)
+
+#### Spam Detection
+**Applications**:
+- **Email**: Gmail's spam filtering (99.9% accuracy)
+- **SMS**: Carrier-level spam blocking
+- **Social Media**: Content moderation on platforms
+- **Features**: Keyword analysis, sender reputation, behavioral patterns
