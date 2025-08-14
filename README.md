@@ -168,3 +168,77 @@ Input: "Apple's CEO visited New York yesterday"
 - **SMS**: Carrier-level spam blocking
 - **Social Media**: Content moderation on platforms
 - **Features**: Keyword analysis, sender reputation, behavioral patterns
+
+## NLP and LLM Integration
+
+**Relationship**: LLMs are advanced NLP systems that leverage deep learning to achieve superior language understanding and generation
+
+### How They Work Together
+
+#### Traditional NLP → Modern LLMs Evolution
+```
+Traditional NLP Pipeline:
+Text Input → Tokenization → POS Tagging → NER → Rule-based Processing → Output
+
+Modern LLM Pipeline:
+Text Input → Tokenization → Transformer Encoding → Attention Mechanisms → Generation → Output
+```
+
+#### Key Differences and Synergies
+
+**Traditional NLP**:
+- **Approach**: Rule-based, feature engineering, smaller models
+- **Strengths**: Interpretable, fast, domain-specific accuracy
+- **Examples**: spaCy, NLTK, Stanford CoreNLP
+
+**LLM-based NLP**:
+- **Approach**: End-to-end learning, massive parameter models
+- **Strengths**: Context understanding, few-shot learning, generalization
+- **Examples**: GPT-5, Claude 4, T5, BERT
+
+#### Real-World Integration Examples
+
+**Hybrid Systems (2025)**:
+1. **Search Engines**:
+   - Traditional NLP: Query parsing, entity extraction
+   - LLM: Context understanding, result summarization
+   - Example: Google Search uses BERT for understanding + PaLM for generating answers
+
+2. **Customer Support**:
+   - Traditional NLP: Intent classification, keyword detection
+   - LLM: Response generation, conversation flow
+   - Example: Zendesk uses NER for ticket routing + GPT-5 for drafting responses
+
+3. **Content Moderation**:
+   - Traditional NLP: Spam detection, explicit content filtering
+   - LLM: Context-aware toxicity detection, nuanced content analysis
+   - Example: Meta uses traditional classifiers + Llama 4 for complex cases
+
+#### Performance Comparison (2025)
+
+| Task | Traditional NLP | LLM-based | Best Approach |
+|------|----------------|-----------|---------------|
+| Named Entity Recognition | 95% accuracy | 97% accuracy | Hybrid |
+| Sentiment Analysis | 87% accuracy | 94% accuracy | LLM |
+| Machine Translation | 89% BLEU | 95+ BLEU | LLM |
+| Spam Detection | 99.5% accuracy | 99.8% accuracy | Hybrid |
+| Text Summarization | 65% ROUGE | 85% ROUGE | LLM |
+
+#### Cost-Benefit Analysis
+
+**When to Use Traditional NLP**:
+- High-volume, low-latency applications
+- Limited computational resources
+- Well-defined, narrow tasks
+- **Cost**: $0.001 per 1K requests
+
+**When to Use LLMs**:
+- Complex reasoning required
+- Few training examples available
+- Multi-task applications
+- **Cost**: $0.05-0.20 per 1K tokens
+
+**Hybrid Approach Benefits**:
+- Combines speed of traditional NLP with intelligence of LLMs
+- Cost-effective for enterprise applications
+- Maintains explainability where needed
