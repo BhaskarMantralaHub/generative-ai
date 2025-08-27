@@ -104,7 +104,7 @@ AI models built on **Deep Learning (Neural Networks)** fall into two main catego
   - Bias: Reflecting training data biases in outputs
   - Examples: ChatGPT creating fake citations, bias in resume screening
 
-## Natural Language Processing (NLP)
+## Natural Language Processing(NLP)
 
 **Definition**: AI technology that enables computers to understand, interpret, and generate human language
 
